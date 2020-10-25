@@ -29,14 +29,22 @@
                       </div>
                       <div class="form-group row">
                         <label class="col-md-3 form-control-label">Department</label>
-                        <div class="col-md-9">
-                          <input name="department" type="text" class="form-control">
+                        <div class="col-md-9 select mb-3">
+                          <select name="department" class="form-control">
+                            {% for depart in department %}
+                            <option>{{depart}}</option>
+                            {% endfor %}
+                          </select>
                         </div>
                       </div>
                       <div class="form-group row">
                         <label class="col-md-3 form-control-label">Category</label>
-                        <div class="col-md-9">
-                          <input name="category" type="text" class="form-control">
+                        <div class="col-md-9 select mb-3">
+                          <select name="category" class="form-control">
+                            {% for categ in category %}
+                            <option>{{categ}}</option>
+                            {% endfor %}
+                          </select>
                         </div>
                       </div>
                       <div class="form-group row">
