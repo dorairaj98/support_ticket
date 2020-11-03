@@ -39,8 +39,8 @@ def dashboard(request):
     u = User.objects.get(id=request.user.id)
     ticketid = u.profile.ticket_support_id
 
-    auth_token = "9446933330c7f886fbdf16782906a9e0"
-    org_id = "60001280952"
+    auth_token = "9446933330c7f886fbdf168452906a9e0"
+    org_id = "60001840952"
 
     ticket_id = str(ticketid)
     params = "include=contacts,products"
@@ -105,8 +105,8 @@ def submit_ticket(request):
     department = []
     id =[]
     category = ["-None-","NEW Project CI/CD Pipeline Setup","Update CI/CD Pipeline Configuration","DevSecOps Pipeline Setup","CI/CD pipeline failure","others"]
-    auth_token = "9446933330c7f886fbdf16782906a9e0"
-    org_id = "60001280952"
+    auth_token = "9446933330c7f886fbdf16745906a9e0"
+    org_id = "60001287852"
 
     headers = {
         "Authorization": auth_token,
