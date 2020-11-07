@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'dorairaj$default',
         'USER': 'dorairaj',
-        'PASSWORD': 'RaJ@43#$',
+        'PASSWORD': '*******',
         'HOST': 'dorairaj.mysql.pythonanywhere-services.com',
     }
 }
